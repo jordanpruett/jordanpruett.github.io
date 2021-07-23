@@ -2,9 +2,9 @@
 title: "New Website"
 date: 2021-07-23
 categories:
-  - blog
+  - personal projects
 tags:
-  - personal
+  - blog
 ---
 
 Freed from Wordpress, at last.
