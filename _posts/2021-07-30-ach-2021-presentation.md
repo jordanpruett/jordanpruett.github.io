@@ -11,11 +11,7 @@ _The following is a lightly-edited transcription of my presentation with Dan Sin
 For our presentation, I’m going to share some exploratory analysis from our current project, material that I hope will help get a conversation started about what book review data can teach us about the book market and literary culture. In particular, I’m going to suggest that a remarkable amount of insight can be gleaned from book reviews simply by coding information on whether or not a specific publication reviewed a book, without encoding anything on the content of a review. 
 
 We’re working with a dataset derived from the _Book Review Index_ between the years 1965 and 2000, which was digitized by Richard So and my co-presenter Dan Sinykin. Somewhere in your university library, there is probably a copy of the _Book Review Index_, a series of large volumes that index the book reviews published by hundreds of periodicals, mostly American, ranging from academic journals, mainstream newspapers, literary magazines, and smaller magazines targeting a specialized audience.
-<br/>
-<br/>
-![bri-cover](/assets/images/07-21/bri_cover.png)
-<br/>
-<br/>
+
 A single entry in the _Index_ might look like this. Each unique title has such an entry, listing publication, volume, edition, and page number for the review. On the surface, this doesn’t tell us much: nothing about what the review says, only whether it exists. But the decision to review a book is itself an act of valuation; it reflects editors’ suspicions that this book will be of interest to their readers. Can we learn something about the American literary marketplace between 1965 and 2000 from an aggregate picture of these acts of valuation?
 <br/>
 <br/>
