@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Ph.D candidate in Digital Humanities and English Literature at the University of Chicago.
 twitter_username: pruett_jordan
 github_username: jordanpruett
-minimal_mistakes_skin: dirt
+minimal_mistakes_skin: default
 search: true
 
 # Build settings
