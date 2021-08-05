@@ -5,13 +5,6 @@ categories:
   - dissertation
 ---
 
-One thing I am exploring in my current project on the _Book Review Index_ is the similarity of the review profile of different journals. How much overlap do different journals have in the set of books that they review? Do book reviewers fall into clusters of like-minded readers that all review the same books, and if so, what do those clusters look like? 
+I recently produced a hierarchical cluster analysis of the _Book Review Index_ data that I've been working with, though unfortunately I didn't have enough time to include it in my ACH presentation last month. That's a shame, since the resulting dendrogram is so interesting. You can view the visualization [here.](/assets/images/08-21/dendrogram_8-5-21.png) It's too gigantic to comfortably embed on this page, but most browsers will let you open the image itself in a new tab.
 
-
-You can download the dendrogram [here.](/assets/images/08-21/dendrogram_8-5-21.png) It's too gigantic to fit on this page, so I recommend downloading it or opening it in a new tab and zooming in. 
-
-<br/>
-<br/>
-![here.](/assets/images/08-21/dendrogram_8-5-21.png)
-<br/>
-<br/>
+The diagram itself was produced by first generating a similarity matrix comparing each of the 285 journals to each other journal. The underlying data is simply a collection of binary vectors indicating which journals reviewed each book. As such, I used the Jaccard distance as my similarity metric: the similarity of two journals equals the intersection of the books they both reviewed divided by the union of all books reviewed by either journal.
