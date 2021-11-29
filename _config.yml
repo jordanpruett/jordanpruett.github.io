@@ -60,9 +60,9 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Ph.D candidate in Digital Humanities and English Literature at the University of Chicago."
   links:
-    - label: "Website"
+    - label: "LinkedIn"
       icon: "fas fa-fw fa-link"
-      url: "https://jordanpruett.github.io"
+      url: "https://www.linkedin.com/in/jordan-pruett-a30502ba/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/pruett_jordan"
@@ -72,6 +72,9 @@ author:
 
 footer:
   links:
+    - label: "LinkedIn"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.linkedin.com/in/jordan-pruett-a30502ba/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/pruett_jordan"
