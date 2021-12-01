@@ -868,15 +868,6 @@ output_file(
 Take some time to look it over. You will note that the clusters have a high degree of intuitive structure. Just browsing, I found a cluster of 19th century American authors (Twain, Fennimore Cooper, Melville, etc), a Canadian cluster, a science fiction cluster, and more.
 
 
-```python
-from IPython.display import IFrame
-
-IFrame(src=f'../../images/tsne_interactive_{weighting_scheme}.html', width=1000, height=800)
-```
-
-
-
-
 
 <iframe
     width="1000"
