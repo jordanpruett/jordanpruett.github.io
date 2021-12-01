@@ -313,28 +313,10 @@ I've played around with three different methods for normalizing the data in this
 
 
 ```python
-weighting_scheme = 'standard'
-
-if weighting_scheme == 'standard':
-    from sklearn.preprocessing import StandardScaler
-    scaler = StandardScaler()
-    weighted = scaler.fit_transform(df)
-    weighted = pd.DataFrame(weighted, index=df.index, columns=df.columns)
-elif weighting_scheme == 'TFIDF':
-    docs = df.shape[0]
-    idfs = [math.log(docs / np.where(df[col] == 0, 0, 1).sum()) for col in df.columns]
-    weighted = df * idfs
-elif weighting_scheme == 'PMI': 
-
-    p_joint = df / df.sum().sum() # P(author, journal)
-    p_j = df.sum() / df.sum().sum() # P(journal)
-    p_a = author_total_books / author_total_books.sum() # P(author)
-    p_independent = p_a.apply(lambda a: a * p_j) # P(author) * P(journal)
-    weighted = (p_joint / p_independent) + 1 # PMI, then add 1 to allow us to take the log
-    weighted = pd.DataFrame(np.ma.log(weighted.values).filled(0), # take the log, then subtract back that 1
-                            index=weighted.index, 
-                            columns=weighted.columns) - 1
-
+from sklearn.preprocessing import StandardScaler
+scaler = StandardScaler()
+weighted = scaler.fit_transform(df)
+weighted = pd.DataFrame(weighted, index=df.index, columns=df.columns)
 
 weighted.head()
 ```
