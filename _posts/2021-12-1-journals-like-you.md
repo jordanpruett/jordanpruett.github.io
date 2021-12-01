@@ -1,14 +1,18 @@
 ---
-title: "Author Similarity in the Book Review Index, 1965-1984"
+title: "'Journals Like You Also Reviewed...'"
 date: 2021-12-1
 excerpt_separator: 
 categories:
   - dissertation
 ---
 
-This notebook gives a preview of some of the research I have done for my third dissertation chapter, in which I am working with a dataset derived from the digitized contents of the Book Review Index from 1965-2000. For this demonstration, I'm just working with the 1965-1984 cumulation of the data. This dataset tracks which of ~350 publications reviewed almost 1 million books in that period.
+By now, most people probably have an intuitive understanding of how a simple recommendation system works. Classical recommendation systems use what is known as "collaborative filtering": items are recommended based on the tastes of other users who have purchased/viewed/consumed many of the same items that you have. 
 
-In what follows, I model the data from 1965-1984 as a journal - author matrix: columns are journals, rows are authors, and each cell represents the number of times that author was reviewed by that journal. This allows us to make similarity comparisons between authors that have a remarkable degree of intuitive consistency: authors are naturally grouped by genre, status, profession, and even nationality.
+Although collaborative filtering was invented in the 1990s, it's based on an older intuition about how taste works: people who have shared taste in the past are likely to do so in the future. Although I'm sympathetic to the traditional critiques of collaborative filtering (siloization, "rich get richer," etc), from a sociology of culture perspective, what's most interesting is that it even works in the first place. The fact that observed overlaps in taste can be used to uncover unseen overlaps tells us something about communities of taste and the social formation of preferences.
+
+For the past few months, I've been working on a dissertation chapter that explores this perspective. The chapter applies some of the methods of the collaborative filtering literature to a dataset derived from the contents of the Book Review Index between 1965 and 2000. The full dataset contains bibliographic entries on over 3 million reviews of over 1 million books.
+
+In what follows, I share a simple demonstration on just the 1965-1984 section of the data. I model the data as a journal-author matrix: columns are journals, rows are authors, and each cell represents the number of times that author was reviewed by that journal. This allows us to make similarity comparisons between authors that have a remarkable degree of intuitive consistency: authors are naturally grouped by genre, status, profession, and even nationality.
 
 
 ```python
