@@ -303,7 +303,7 @@ plt.show()
 
 
     
-![png](/images/12-1/journal_hist.png)
+![png](assets/images/12-1/journal_hist.png)
     
 
 
@@ -895,7 +895,7 @@ IFrame(src=f'../../images/tsne_interactive_{weighting_scheme}.html', width=1000,
 <iframe
     width="1000"
     height="800"
-    src="/images/12-1/tsne_interactive_standard.html"
+    src="/assets/images/12-1/tsne_interactive_standard.html"
     frameborder="0"
     allowfullscreen
 
