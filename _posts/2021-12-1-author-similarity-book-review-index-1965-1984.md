@@ -303,7 +303,7 @@ plt.show()
 
 
     
-![png](assets/images/12-1/journal_hist.png)
+![png](/assets/images/12-1/journal_hist.png)
     
 
 
