@@ -11,7 +11,7 @@ In Winter 2021, I taught an introductory course in quantitative text analysis to
 
 ## Dissertation Chapters
 
-### The Rise of the Mass Market Bestseller: A Quantitative History of ~2,040 New York Times Bestsellers
+### The Rise of the Mass Market Hardcover: A Quantitative History of ~2,040 New York Times Bestsellers
 In this dissertation chapter, I constructed a corpus of bestselling novels by matching entries on the NYT bestseller list to full text volumes held by HathiTrust. Comprising more than half of all novels that have ever made the list, this corpus provides a rich portrait of the history of popular literature in the postwar United States. By training a topic model on the full corpus, I show that at the end of the twentieth century, historical novels and novels about domestic life became less popular, whereas crime and "suspense" novels became newly prominent. 
 
 The data used in the chapter is currently under review at the Post45 Data Collective. 
