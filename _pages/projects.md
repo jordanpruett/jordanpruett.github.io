@@ -16,7 +16,13 @@ In this dissertation chapter, I constructed a corpus of bestselling novels by ma
 
 The data used in the chapter is currently under review at the Post45 Data Collective. 
 
+#### Related Posts
+* [Authorless Topic Models](https://jordanpruett.github.io/dissertation/authorless-topic-models/)
+
 ### Dimensions of Prestige: A Cluster Analysis of the Book Review Index, 1965-2000
 This chapter analyzes a dataset derived from the digitized contents of the Book Review Index. Covering more than 3 million reviews of over 1 million books, the dataset provides a panoramic view of how books were received and which authors were most widely reviewed in the period. Borrowing methods from collaborative filtering, I show that grouping authors based on the journals in which they were reviewed produces clusters with a surprising amount of intuitive coherence. This method produces clusters based on genre, profession, region, religion, and even politics. 
 
-I presented preliminary results for this chapter with Dan Sinykin at ACH 2021. You can read a transcript of my presentation [here](/academic/dissertation/ach-2021-presentation/). I also recently wrote [a blog post](https://jordanpruett.github.io/dissertation/journals-like-you/) about the author-similarity comparisons made in the chapter.
+#### Related posts
+* [ACH 2021 Presentation](/academic/dissertation/ach-2021-presentation/)
+* ['Journals Like You Also Reviewed...'](https://jordanpruett.github.io/dissertation/journals-like-you/)
+
