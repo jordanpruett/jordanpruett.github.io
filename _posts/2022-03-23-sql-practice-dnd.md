@@ -1,3 +1,10 @@
+---
+title: "SQL Practice With D&D Data"
+date: 2022-03-23
+categories:
+  - sql
+  - dataviz
+---
 
 Below are some SQL challenges I made for myself as practice, using a database I built from public D&D Beyond character sheets. 
 
